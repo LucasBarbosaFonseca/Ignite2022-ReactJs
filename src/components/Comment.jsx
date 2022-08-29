@@ -8,7 +8,7 @@ export function Comment({ content }) {
             <Avatar hasBorder={false} src="https://github.com/LucasBarbosaFonseca.png" />
 
             <div className={styles.commentBox}>
-                <dia className={styles.commentContent}>
+                <div className={styles.commentContent}>
                     <header>
                         <div className={styles.authorAndTime}>
                             <strong>Lucas Barbosa Fonseca</strong>
@@ -21,7 +21,7 @@ export function Comment({ content }) {
                     </header>
 
                     <p>{content}</p>
-                </dia>
+                </div>
 
                 <footer>
                     <button>
